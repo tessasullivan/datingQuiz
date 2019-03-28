@@ -66,7 +66,7 @@ function determineMatch (age, sex, orientation, favoriteAnimal) {
         }
       }
     }
-    return matchImage;
+    return [match, matchImage];
   }
 
 $(document).ready(function() {
@@ -75,13 +75,14 @@ $(document).ready(function() {
     var sex = $("#sex").val();
     var orientation = $("#orientation").val();
     var favoriteAnimal = $("#favoriteAnimal").val();
-    var match = "Test String";
-    var matchImage;
+    var match = determineMatch(age, sex, orientation, favoriteAnimal);
+    var matchName = match[0];
+    var matchImage = match[1];
 
     if (age) {
-      var matchImage = determineMatch(age, sex, orientation, favoriteAnimal);
+  //    var matchImage = determineMatch(age, sex, orientation, favoriteAnimal);
       $("#quiz").hide();
-      $("#match").prepend("<h1>Your match is " + match + "</h1>");
+      $("#match").prepend("<h1>Your match is " + matchName + "</h1>");
       $("#match").append("<img src=" + matchImage + ">");
     } else {
       alert("Please enter your age");
