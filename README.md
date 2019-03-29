@@ -9,8 +9,8 @@ Enter in your age, sex, orientation, and choose your favorite animal and receive
 
 ## Setup/Installation Requirements
 
-*_Clone this repository_
-*_Open index.html in a web browser and answer the questions_
+* Clone this repository
+* Open index.html in a web browser and answer the questions
 
 
 ## Known Bugs
