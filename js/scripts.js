@@ -80,7 +80,6 @@ $(document).ready(function() {
     var matchImage = match[1];
 
     if (age) {
-  //    var matchImage = determineMatch(age, sex, orientation, favoriteAnimal);
       $("#quiz").hide();
       $("#match").prepend("<h1>Your match is " + matchName + "</h1>");
       $("#match").append("<img src=" + matchImage + ">");
