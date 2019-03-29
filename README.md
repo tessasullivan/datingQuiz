@@ -18,13 +18,15 @@ Enter in your age, sex, orientation, and choose your favorite animal and receive
 
 ## Support and contact details
 
-_Contact Tessa Sullivan at tessa.sullivan@gmail.com or Brendan Hellar at bwhellar@gmail.com.
+_Contact Tessa Sullivan at tessa.sullivan@gmail.com or Brendan Hellar at bwhellar@gmail.com._
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* Relies upon jQuery 3.3.1
+* Links to Bootstrap 4.3.1
+* Bootstrap classes used includes form-control
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This software is licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_Tessa Sullivan and Brendan Hellar_**
